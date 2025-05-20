@@ -14,6 +14,13 @@ This covers:
 <img width="698" alt="image" src="https://github.com/user-attachments/assets/03fa2fd0-71db-4c64-9507-c0a678c96ce1" />
 
 
+
+---
+
+## 🧪 Test Runner Utility
+
+```js
+
 function reverseArray(arr) {
     let left = 0, right = arr.length - 1;
     while (left < right) {
@@ -98,35 +105,6 @@ runTests({
     ]
 });
 
-
----
-
-## 🧪 Test Runner Utility
-
-```js
-function runTests({ functionName, testCases }) {
-    console.log(`\n🚀 Running tests for: ${functionName.name}`);
-    let passed = 0;
-
-    for (let i = 0; i < testCases.length; i++) {
-        const { input, expected } = testCases[i];
-        const inputClone = Array.isArray(input) ? [...input] : input;
-        const actual = functionName(inputClone);
-        const isEqual = JSON.stringify(actual) === JSON.stringify(expected);
-
-        if (isEqual) {
-            console.log(`✅ Test ${i + 1} passed`);
-            passed++;
-        } else {
-            console.log(`❌ Test ${i + 1} failed`);
-            console.log(`   Input:    ${JSON.stringify(input)}`);
-            console.log(`   Expected: ${JSON.stringify(expected)}`);
-            console.log(`   Got:      ${JSON.stringify(actual)}\n`);
-        }
-    }
-
-    console.log(`\n${passed}/${testCases.length} tests passed ✅\n`);
-}
 ```
 
 ---
