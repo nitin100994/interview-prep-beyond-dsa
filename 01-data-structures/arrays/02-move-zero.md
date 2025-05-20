@@ -30,3 +30,9 @@ function moveZeros(arr) {
 
   return arr;
 }
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+✅ In-place operation that maintains relative order.
