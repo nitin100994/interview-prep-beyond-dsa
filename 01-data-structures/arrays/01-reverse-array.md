@@ -27,3 +27,9 @@ function reverseArray(arr) {
 
   return arr;
 }
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+✅ In-place reversal using two pointers.
