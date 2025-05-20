@@ -27,22 +27,7 @@ Here, “call me” is the **callback**.
 
 ---
 
-## 🛠️ Step 2: `call()` in JavaScript
-
-`call()` is a method used to **manually invoke a function with a specific `this` value**.
-
-```js
-function sayHi() {
-  console.log(`Hi, I'm ${this.name}`);
-}
-
-const person = { name: "Nitin" };
-sayHi.call(person); // Output: Hi, I'm Nitin
-```
-
-### 🧠 Think of `call()` as:
-> "I want to call a function and **pretend** it's being called from another object."
-
+ignore step numbering 
 ---
 
 ## 🔁 Step 3: Asynchronous Callbacks
