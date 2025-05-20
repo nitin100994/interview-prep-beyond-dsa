@@ -11,18 +11,8 @@ This covers:
 ---
 
 ## 📌 Function
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/03fa2fd0-71db-4c64-9507-c0a678c96ce1" />
 
-```js
-function reverseArray(arr) {
-    let left = 0, right = arr.length - 1;
-    while (left < right) {
-        [arr[left], arr[right]] = [arr[right], arr[left]];
-        left++;
-        right--;
-    }
-    return arr;
-}
-```
 
 ---
 
