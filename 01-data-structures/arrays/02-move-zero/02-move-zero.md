@@ -23,7 +23,7 @@ function moveZeros(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] !== 0) {
-      [arr[i], arr[lastNonZeroIndex]] = [arr[lastNonZeroIndex], arr[i]];
+      [arr[i], arr[lastNonZeroIndex]] = [arr[lastNonZeroIndex], arr[i]]; ## refer swap-technique-JS.md for easy code.
       lastNonZeroIndex++;
     }
   }
