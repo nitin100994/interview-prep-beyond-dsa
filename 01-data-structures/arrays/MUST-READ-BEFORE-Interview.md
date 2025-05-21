@@ -12,11 +12,11 @@ Pattern: Basic two-pointer
 
 🔑 Critical Line:
 
-
+```
 [nums[left], nums[right]] = [nums[right], nums[left]];
 left++;
 right--;
-
+```
 
 ---
 
