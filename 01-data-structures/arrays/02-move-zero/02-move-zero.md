@@ -16,7 +16,7 @@ Move all `0`s in the array to the end while keeping the order of non-zero elemen
 ---
 
 ## Code (JavaScript):
-
+## Approach using swapping and only for loop
 ```js
 function moveZeros(arr) {
   let lastNonZeroIndex = 0;
@@ -38,7 +38,7 @@ Space Complexity: O(1)
 ✅ In-place operation that maintains relative order.
 
 -------
-## Another Approach using swapping and only for loop
+## Another Approach using coping than using another loop to add zero at end.
 
 function moveZeroes(nums) {
     let pos = 0;
