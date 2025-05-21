@@ -37,13 +37,13 @@ Time: O(n), Space: O(1)
 
 🔑 Critical Line:
 
-
+```
 if (nums[i] !== 0) {
     nums[pos] = nums[i];
     pos++;
 }
 
-
+```
 ---
 
 ✅ 3. Remove Duplicates from Sorted Array
@@ -61,12 +61,12 @@ Time: O(n), Space: O(1)
 
 🔑 Critical Line:
 
-
+```
 if (nums[i] !== nums[i - 1]) {
     nums[pos] = nums[i];
     pos++;
 }
-
+```
 
 ---
 
@@ -89,13 +89,13 @@ Pattern: Scan + Write using Set
 
 🔑 Critical Line:
 
-
+```
 if (!seen.has(nums[i])) {
     seen.add(nums[i]);
     nums[pos] = nums[i];
     pos++;
 }
-
+```
 
 ---
 
@@ -116,7 +116,7 @@ Pattern: Nested check + write
 
 🔑 Critical Line:
 
-
+```
 let isUnique = true;
 for (let j = 0; j < pos; j++) {
     if (nums[i] === nums[j]) {
@@ -129,7 +129,7 @@ if (isUnique) {
     pos++;
 }
 
-
+```
 ---
 
 ✅ 6. Remove Duplicates by Sorting (Order Doesn’t Matter)
@@ -151,13 +151,13 @@ Pattern: Sort + Two-pointer unique collection
 
 🔑 Critical Line:
 
-
+```
 if (nums[i] !== nums[i - 1]) {
     nums[pos] = nums[i];
     pos++;
 }
 
-
+```
 ---
 
 🧠 Pattern Summary
