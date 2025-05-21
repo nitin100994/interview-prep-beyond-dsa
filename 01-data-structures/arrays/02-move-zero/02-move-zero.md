@@ -43,10 +43,16 @@ Space Complexity: O(1)
 function moveZeroes(nums) {
     let pos = 0;
 
+    // First pass: Move all non-zero elements to the front
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] !== 0) {
-            [nums[pos], nums[i]] = [nums[i], nums[pos]];
+            nums[pos] = nums[i];
             pos++;
         }
+    }
+
+    // Second pass: Fill remaining positions with 0
+    for (let i = pos; i < nums.length; i++) {
+        nums[i] = 0;
     }
 }
