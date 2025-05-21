@@ -26,7 +26,7 @@ console.log(squared); // [1, 4, 9]
 Runs a function on **each element**, but **doesn’t return anything**.
 
 ```js
-const names = ["Pooja", "Arya"];
+const names = ["Chaya", "Maya"];
 names.forEach(name => console.log(`Hi ${name}!`));
 ```
 
