@@ -5,9 +5,9 @@ Swapping values is a fundamental concept in data structures — especially in pr
 ---
 
 ## ✨ Method 1: Destructuring Assignment (Modern & Clean)
-
+```
 [arr[i], arr[j]] = [arr[j], arr[i]];
-
+```
 ✅ Pros:
 - One-liner
 - ES6+ syntax (modern JavaScript)
@@ -15,21 +15,21 @@ Swapping values is a fundamental concept in data structures — especially in pr
 
 ⚠️ Behind the Scenes:
 Even though you don’t declare it, this syntax **creates a temporary array internally**:
-
+```
 let temp = [arr[j], arr[i]];
 arr[i] = temp[0];
 arr[j] = temp[1];
-
+```
 So yes — it still uses memory. It’s just abstracted away.
 
 ---
 
 ## 📦 Method 2: Temp Variable (Classic & Transparent)
-
+```
 let temp = arr[i];
 arr[i] = arr[j];
 arr[j] = temp;
-
+```
 ✅ Pros:
 - Very clear logic
 - Beginner-friendly
@@ -62,7 +62,7 @@ True swap always involves both elements being reassigned.
 ---
 
 ## 🔚 Final Code Sample:
-
+```
 // Destructuring (Modern)
 [arr[i], arr[j]] = [arr[j], arr[i]];
 
@@ -70,7 +70,7 @@ True swap always involves both elements being reassigned.
 let temp = arr[i];
 arr[i] = arr[j];
 arr[j] = temp;
-
+```
 ---
 
 ## 📝 Summary
