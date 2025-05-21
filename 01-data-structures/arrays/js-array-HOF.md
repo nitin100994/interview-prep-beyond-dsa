@@ -64,8 +64,8 @@ Returns the **first element** that passes a condition. **Returns one item**, not
 
 ```js
 const users = [
-  { id: 1, name: "Nitin" },
-  { id: 2, name: "Pooja" }
+  { id: 1, name: "Shiv" },
+  { id: 2, name: "Parvati" }
 ];
 
 const result = users.find(user => user.id === 2);
@@ -123,7 +123,7 @@ console.log(sum); // 10
 
 ---
 
-## ❤️ Summary (for Pooja or any learner)
+## Summary
 
 All these functions give **clarity + control**.  
 They help you write **less code** and do **more**.  
