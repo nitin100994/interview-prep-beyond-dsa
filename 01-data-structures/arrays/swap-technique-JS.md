@@ -54,8 +54,8 @@ Takes 3 lines instead of 1 — but **more readable** to many developers.
 ---
 
 ## 💡 Analogy
-
-"It’s called a swap, not a copyright."  
+```
+"It’s called a swap, not a copyright."  ```
 You're not copying values — you're exchanging places.  
 True swap always involves both elements being reassigned.
 
