@@ -10,11 +10,11 @@ function greet(name) {
 }
 
 function processUser(callback) {
-  const userName = "Pooja";
+  const userName = "Nitin";
   callback(userName);
 }
 
-processUser(greet); // Output: Hello, Pooja!
+processUser(greet); // Output: Hello, Nitin!
 ```
 
 ---
