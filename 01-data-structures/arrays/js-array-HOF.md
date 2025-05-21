@@ -64,8 +64,8 @@ Returns the **first element** that passes a condition. **Returns one item**, not
 
 ```js
 const users = [
-  { id: 1, name: "Shiv" },
-  { id: 2, name: "Parvati" }
+  { id: 1, name: "Tom" },
+  { id: 2, name: "Jerry" }
 ];
 
 const result = users.find(user => user.id === 2);
