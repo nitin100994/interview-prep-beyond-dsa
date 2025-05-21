@@ -7,12 +7,12 @@
 
 
 Example:
-
+```
 Input: s = "anagram", t = "nagaram"  // Output: true
 Input: s = "rat", t = "car"            // Output: false
 Input: s = "abba", t = "baba"         // Output: true
 Input: s = "abba", t = "abbba"        // Output: false
-
+```
 
 ---
 
@@ -42,7 +42,7 @@ Otherwise, decrement the count
 ---
 
 ✅ Code:
-
+```
 function isAnagram(s, t) {
     if (s.length !== t.length) return false;
 
@@ -59,16 +59,16 @@ function isAnagram(s, t) {
 
     return true;
 }
-
+```
 
 ---
 
 🧠 Key Line Explanation:
 
 🔸 Line 1:
-
+```
 map[char] = (map[char] || 0) + 1;
-
+```
 Means:
 
 > If char already exists in map, increment its count. If not, start from 0 and add 1.
@@ -76,10 +76,10 @@ Means:
 
 
 🔸 Line 2:
-
+```
 if (!map[char]) return false;
 map[char]--;
-
+```
 Means:
 
 > If char doesn’t exist or has no count left, return false. Otherwise, reduce its count by 1.
