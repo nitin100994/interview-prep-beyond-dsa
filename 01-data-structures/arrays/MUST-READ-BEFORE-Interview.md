@@ -51,11 +51,11 @@ if (nums[i] !== 0) {
 Goal: Remove duplicates from sorted array, in-place
 
 Approach:
-
+```
 pos = 1
 
 If nums[i] !== nums[i-1], write to nums[pos++]
-
+```
 
 Time: O(n), Space: O(1)
 
