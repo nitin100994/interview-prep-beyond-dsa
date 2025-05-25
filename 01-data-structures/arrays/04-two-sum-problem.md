@@ -43,7 +43,7 @@ function twoSum(arr, target) {
 ---
 
 🧪 Test Cases
-
+```
 console.log("Happy Case:", twoSum([2, 7, 11, 15], 9));             // [0, 1]
 console.log("No Match Case:", twoSum([1, 2, 3], 10));              // [-1, -1]
 console.log("Empty Array:", twoSum([], 5));                        // [-1, -1]
@@ -51,7 +51,7 @@ console.log("One Element:", twoSum([7], 7));                       // [-1, -1]
 console.log("Duplicate Values:", twoSum([3, 3], 6));              // [0, 1]
 console.log("Negative Numbers:", twoSum([-1, 4, 2, -3], 1));       // [0, 2]
 
-
+```
 ---
 
 📘 Example Explained
