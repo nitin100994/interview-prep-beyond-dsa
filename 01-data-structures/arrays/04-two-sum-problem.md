@@ -22,7 +22,7 @@ This program finds those two items (by index) in the list.
 ---
 
 ✅ Solution (Using HashMap for O(n) time)
-
+```
 function twoSum(arr, target) {
     let map = new Map(); // to store each number and its index
 
@@ -38,7 +38,7 @@ function twoSum(arr, target) {
 
     return [-1, -1]; // if no pair found
 }
-
+```
 
 ---
 
