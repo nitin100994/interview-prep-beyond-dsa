@@ -50,7 +50,7 @@ maxSum → best total streak ever seen
 
 
 ---
-
+```
 ✅ Code (Optimized O(n))
 
 function maxSubArray(nums) {
@@ -69,7 +69,7 @@ function maxSubArray(nums) {
     return maxSum;
 }
 
-
+```
 ---
 
 🧪 Test Cases
@@ -84,7 +84,7 @@ console.log(maxSubArray([0, 0, 0]));              // 0
 ---
 
 🪜 Dry Run Example
-
+```
 Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
 Step-by-step:
@@ -107,7 +107,7 @@ i = 7 → max(-5, 6-5) = 1 → currentSum = 1, maxSum = 6
 
 i = 8 → max(4, 1+4) = 5 → currentSum = 5, maxSum = 6
 
-
+```
 Final Output: 6
 
 
