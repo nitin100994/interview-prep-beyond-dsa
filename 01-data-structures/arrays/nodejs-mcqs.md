@@ -519,10 +519,226 @@ Explanation:
 
 
 ---
+✅ Node.js Full MCQ Pack – 50+ Questions
 
-Next batch will continue from 41–50...
+... (Previous MCQs 1–40 above) ...
 
-Let me know if you want me to keep stacking it now, or drop a .md export with everything inside.*
+
+---
+
+🧠 MCQ 41: What does npm install do with no arguments?
+
+A. Installs global packages
+
+B. Updates Node
+
+C. Installs dependencies from package.json
+
+D. Removes node_modules
+
+✅ Correct Answer: C
+
+Explanation:
+
+> Running npm install with no arguments installs all dependencies listed in package.json.
+
+
+
+
+---
+
+🧠 MCQ 42: What is a peer dependency in Node.js?
+
+A. Required at build time
+
+B. Must be present in the parent project
+
+C. A dev-only dependency
+
+D. Optional package
+
+✅ Correct Answer: B
+
+Explanation:
+
+> Peer dependencies are packages that the parent project must also install — often used by libraries and plugins.
+
+
+
+
+---
+
+🧠 MCQ 43: Which status code indicates successful POST resource creation?
+
+A. 200
+
+B. 201
+
+C. 204
+
+D. 301
+
+✅ Correct Answer: B
+
+Explanation:
+
+> 201 Created is the correct response after a resource is successfully created via POST.
+
+
+
+
+---
+
+🧠 MCQ 44: What does process.exit() do?
+
+A. Reloads app
+
+B. Ends current function only
+
+C. Immediately ends the Node.js process
+
+D. Logs environment variables
+
+✅ Correct Answer: C
+
+Explanation:
+
+> process.exit() terminates the Node process immediately. Optionally takes an exit code.
+
+
+
+
+---
+
+🧠 MCQ 45: Which stream method reads data from a readable stream?
+
+A. .read()
+
+B. .pipe()
+
+C. .fetch()
+
+D. .get()
+
+✅ Correct Answer: A
+
+Explanation:
+
+> .read() manually pulls data from a readable stream.
+
+
+
+
+---
+
+🧠 MCQ 46: What does res.status(404).send('Not Found') do?
+
+A. Sends 200 OK
+
+B. Triggers redirect
+
+C. Sets status to 404 and sends text
+
+D. Sends JSON error response
+
+✅ Correct Answer: C
+
+Explanation:
+
+> This sets the status code and sends a response — useful for custom error handling.
+
+
+
+
+---
+
+🧠 MCQ 47: How do you redirect a user in Express.js?
+
+A. res.go()
+
+B. res.forward()
+
+C. res.redirect()
+
+D. res.sendLocation()
+
+✅ Correct Answer: C
+
+Explanation:
+
+> res.redirect('/new-page') is the correct way to redirect a request in Express.
+
+
+
+
+---
+
+🧠 MCQ 48: What does the zlib module provide?
+
+A. File system locking
+
+B. Compression and decompression streams
+
+C. WebSockets support
+
+D. HTML parsing
+
+✅ Correct Answer: B
+
+Explanation:
+
+> The zlib module supports GZIP, deflate, and inflate compression streams.
+
+
+
+
+---
+
+🧠 MCQ 49: How do you handle JSON parsing errors in Express?
+
+A. Catch in router
+
+B. Override res.json
+
+C. Use error-handling middleware
+
+D. Disable express.json()
+
+✅ Correct Answer: C
+
+Explanation:
+
+> Invalid JSON throws errors — caught using a centralized error handler middleware.
+
+
+
+
+---
+
+🧠 MCQ 50: What’s the use of global in Node.js?
+
+A. Global CSS loader
+
+B. Import npm packages
+
+C. Access system-level variables across files
+
+D. Monitor memory leaks
+
+✅ Correct Answer: C
+
+Explanation:
+
+> global is Node’s equivalent of window in browsers — variables defined here are accessible anywhere.
+
+
+
+
+---
+
+Congratulations! You now have 50 core MCQs across all major Node.js topics.
+
+> Powered by Gordon Providers – Built for confidence, tested with fire.
 
 
 
