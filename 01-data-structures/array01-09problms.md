@@ -1,9 +1,13 @@
-✅ DSA Array Problem Set – 9 Core Questions (With Code)
+✅ DSA Array Problem Set – 9 Core Questions (Structured)
 
 
 ---
 
-1. Reverse an Array
+... 1. Reverse an Array
+
+Problem:
+
+Reverse the elements of an array in-place.
 
 function reverseArray(arr) {
   let left = 0, right = arr.length - 1;
@@ -18,7 +22,11 @@ function reverseArray(arr) {
 
 ---
 
-2. Move All Zeros to End
+... 2. Move All Zeros to End
+
+Problem:
+
+Move all 0s to the end of the array, preserving order of non-zero elements.
 
 function moveZeroes(nums) {
   let pos = 0;
@@ -33,7 +41,11 @@ function moveZeroes(nums) {
 
 ---
 
-3. Remove Duplicates from Sorted Array
+... 3. Remove Duplicates from Sorted Array
+
+Problem:
+
+Remove duplicates from a sorted array in-place. Return new length.
 
 function removeDuplicates(nums) {
   if (nums.length === 0) return 0;
@@ -50,7 +62,11 @@ function removeDuplicates(nums) {
 
 ---
 
-4. Two Sum (Indices of Target)
+... 4. Two Sum (Indices of Target)
+
+Problem:
+
+Find indices of two numbers that add up to a target.
 
 function twoSum(nums, target) {
   const map = new Map();
@@ -64,7 +80,11 @@ function twoSum(nums, target) {
 
 ---
 
-5. Kadane's Algorithm – Max Subarray Sum
+... 5. Kadane's Algorithm – Max Subarray Sum
+
+Problem:
+
+Find the maximum sum of a contiguous subarray.
 
 function maxSubArray(nums) {
   let maxSum = nums[0], currentSum = nums[0];
@@ -78,7 +98,11 @@ function maxSubArray(nums) {
 
 ---
 
-6. Kadane’s Algorithm With Indices
+... 6. Kadane’s Algorithm With Indices
+
+Problem:
+
+Return max sum along with start and end index of subarray.
 
 function maxSubArrayWithIndices(nums) {
   let maxSum = nums[0], currentSum = nums[0];
@@ -105,7 +129,11 @@ function maxSubArrayWithIndices(nums) {
 
 ---
 
-7. Merge Two Sorted Arrays In-place
+... 7. Merge Two Sorted Arrays In-place
+
+Problem:
+
+Merge nums2 into nums1, assuming nums1 has enough space.
 
 function merge(nums1, m, nums2, n) {
   let i = m - 1, j = n - 1, k = m + n - 1;
@@ -120,7 +148,11 @@ function merge(nums1, m, nums2, n) {
 
 ---
 
-8. Contains Duplicate
+... 8. Contains Duplicate
+
+Problem:
+
+Return true if any value appears more than once.
 
 function containsDuplicate(nums) {
   const set = new Set();
@@ -134,7 +166,11 @@ function containsDuplicate(nums) {
 
 ---
 
-9. Rotate Array (Right by k steps)
+... 9. Rotate Array (Right by k steps)
+
+Problem:
+
+Rotate the array to the right by k steps.
 
 function rotate(nums, k) {
   k = k % nums.length;
@@ -155,5 +191,5 @@ function rotate(nums, k) {
 
 ---
 
-// 🧠 End of Set 1 // Curated by Gordon Providers – Clean Code, Clear Mind
+// End of Set 1 // Curated by Gordon Providers – Clean Code, Clear Mind
 
