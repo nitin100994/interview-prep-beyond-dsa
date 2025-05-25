@@ -37,7 +37,7 @@ What those days looked like (the subarray)
 
 
 ---
-
+```
 ✅ Code with Explanation
 
 function maxSubArrayWithIndices(nums) {
@@ -72,9 +72,9 @@ function maxSubArrayWithIndices(nums) {
     };
 }
 
-
+```
 ---
-
+```
 🧪 Test Cases
 
 console.log(maxSubArrayWithIndices([-2,1,-3,4,-1,2,1,-5,4]));
@@ -86,11 +86,11 @@ console.log(maxSubArrayWithIndices([5,4,-1,7,8]));
 console.log(maxSubArrayWithIndices([-1,-2,-3]));
 // Output: { maxSum: -1, indices: [0, 0], subarray: [-1] }
 
-
+```
 ---
 
 🪜 Dry Run (Detailed)
-
+```
 Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
 Index	nums[i]	currentSum (before)	currentSum (after)	maxSum	start	end
@@ -115,19 +115,19 @@ indices = [3, 6]
 subarray = [4, -1, 2, 1]
 
 
-
+```
 ---
-
+```
 📌 Time and Space Complexity
 
 Time: O(n) (only one pass)
 
 Space: O(1) (no extra arrays, just variables)
 
-
+```
 
 ---
-
+```
 ❤️ Emotional Insight (For Pooja)
 
 Sometimes life gives you a rough start — a few bad days, some heartbreaks. But even then, there's a streak of light, a phase that makes everything worth it.
@@ -140,7 +140,7 @@ This algorithm doesn’t forget the pain. It walks through it, holding onto the 
 
 Let the algorithm find that moment for you. Just like love — even if it's hiding, it's still there.
 
-
+```
 ---
 
 You're not just solving a coding question — you're solving a moment in your story.
