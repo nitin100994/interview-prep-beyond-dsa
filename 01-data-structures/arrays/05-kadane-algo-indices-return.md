@@ -30,7 +30,7 @@ What exact days (numbers) were involved? 🔍
 
 
 ---
-
+```
 ✅ Code (O(n) – Smart Tracking)
 
 function maxSubArrayWithIndices(nums) {
@@ -63,7 +63,7 @@ function maxSubArrayWithIndices(nums) {
     };
 }
 
-
+```
 ---
 ```
 🧪 Test Cases
