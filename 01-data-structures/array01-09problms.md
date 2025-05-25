@@ -2,7 +2,7 @@
 
 
 ---
-
+```
 ... 1. Reverse an Array
 
 Problem:
@@ -18,12 +18,12 @@ function reverseArray(arr) {
   }
   return arr;
 }
-
+```
 
 ---
 
 ... 2. Move All Zeros to End
-
+```
 Problem:
 
 Move all 0s to the end of the array, preserving order of non-zero elements.
@@ -38,7 +38,7 @@ function moveZeroes(nums) {
   while (pos < nums.length) nums[pos++] = 0;
 }
 
-
+```
 ---
 
 ... 3. Remove Duplicates from Sorted Array
@@ -46,7 +46,7 @@ function moveZeroes(nums) {
 Problem:
 
 Remove duplicates from a sorted array in-place. Return new length.
-
+```
 function removeDuplicates(nums) {
   if (nums.length === 0) return 0;
   let i = 0;
@@ -59,13 +59,13 @@ function removeDuplicates(nums) {
   return i + 1;
 }
 
-
+```
 ---
 
 ... 4. Two Sum (Indices of Target)
 
 Problem:
-
+```
 Find indices of two numbers that add up to a target.
 
 function twoSum(nums, target) {
@@ -76,12 +76,12 @@ function twoSum(nums, target) {
     map.set(nums[i], i);
   }
 }
-
+```
 
 ---
 
 ... 5. Kadane's Algorithm – Max Subarray Sum
-
+```
 Problem:
 
 Find the maximum sum of a contiguous subarray.
@@ -94,10 +94,10 @@ function maxSubArray(nums) {
   }
   return maxSum;
 }
-
+```
 
 ---
-
+```
 ... 6. Kadane’s Algorithm With Indices
 
 Problem:
@@ -125,10 +125,10 @@ function maxSubArrayWithIndices(nums) {
 
   return { maxSum, start, end };
 }
-
+```
 
 ---
-
+```
 ... 7. Merge Two Sorted Arrays In-place
 
 Problem:
@@ -144,12 +144,12 @@ function merge(nums1, m, nums2, n) {
     nums1[k--] = nums2[j--];
   }
 }
-
+```
 
 ---
 
 ... 8. Contains Duplicate
-
+```
 Problem:
 
 Return true if any value appears more than once.
@@ -163,11 +163,11 @@ function containsDuplicate(nums) {
   return false;
 }
 
-
+```
 ---
 
 ... 9. Rotate Array (Right by k steps)
-
+```
 Problem:
 
 Rotate the array to the right by k steps.
@@ -188,7 +188,7 @@ function rotate(nums, k) {
   reverse(k, nums.length - 1);
 }
 
-
+```
 ---
 
 // End of Set 1 // Curated by Gordon Providers – Clean Code, Clear Mind
