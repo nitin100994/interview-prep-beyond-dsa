@@ -65,7 +65,7 @@ function maxSubArrayWithIndices(nums) {
 
 
 ---
-
+```
 🧪 Test Cases
 
 console.log(maxSubArrayWithIndices([-2,1,-3,4,-1,2,1,-5,4]));
@@ -77,17 +77,17 @@ console.log(maxSubArrayWithIndices([5,4,-1,7,8]));
 console.log(maxSubArrayWithIndices([-1,-2,-3]));
 // Output: { maxSum: -1, indices: [0, 0], subarray: [-1] }
 
-
+```
 ---
 
 🪜 Dry Run Walkthrough
-
+```
 Input: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
 We update tempStart only when we start fresh. When a new currentSum > maxSum, we record start = tempStart, end = i.
 
 This gives us the exact range where max sum occurred.
-
+```
 
 ---
 
