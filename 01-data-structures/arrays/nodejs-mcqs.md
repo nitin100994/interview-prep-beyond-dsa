@@ -118,7 +118,84 @@ D. It throws a syntax error
 
 Explanation:
 
-> If promises recursively queue more microtasks, they can starve the event loop by never yielding
+> If promises recursively queue more microtasks, they can starve the event loop by never yielding control to I/O phases like poll.
 
+
+
+
+---
+
+🧠 MCQ 6: In what phase does setImmediate() execute its callbacks?
+
+A. poll
+
+B. timers
+
+C. check
+
+D. idle
+
+✅ Correct Answer: C
+
+Explanation:
+
+> setImmediate() schedules its callback to execute in the check phase of the event loop, which comes immediately after the poll phase.
+
+
+
+
+---
+
+🧠 MCQ 7: Which runs first if both are scheduled together: setTimeout(fn, 0) or setImmediate(fn)?
+
+A. setTimeout
+
+B. setImmediate
+
+C. Whichever was defined first
+
+D. Depends on system internals
+
+✅ Correct Answer: D
+
+Explanation:
+
+> The actual order between setTimeout(fn, 0) and setImmediate(fn) is not guaranteed — it depends on OS and Node internals.
+
+
+
+
+---
+
+🧠 MCQ 8: What is the default thread that executes JavaScript in Node.js?
+
+A. Worker Thread
+
+B. I/O Thread
+
+C. Main Thread
+
+D. Event Queue Thread
+
+✅ Correct Answer: C
+
+Explanation:
+
+> JavaScript in Node.js runs on a single-threaded event loop, which is called the Main Thread.
+
+
+
+
+---
+
+📌 Summary:
+
+Microtasks run after each phase, before returning to event loop
+
+Macrotasks (timers, I/O, etc.) are phase-specific
+
+Blocking event loop = bad for scalability
+
+Event loop = 🧠 of Node.js
 
 
