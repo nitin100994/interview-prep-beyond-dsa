@@ -14,7 +14,7 @@ This ensures we find both values in a single traversal (O(n) time).
 
 
 Edge Cases:
-
+```
 Empty array → returns null
 
 All same elements → min and max are equal
@@ -25,7 +25,7 @@ Single element → min and max are that one element
 Time Complexity: O(n)
 Space Complexity: O(1)
 
-
+```
 ---
 
 🔧 Code:
