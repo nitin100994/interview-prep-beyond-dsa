@@ -1,7 +1,7 @@
 ✅ Problem: Find the Maximum and Minimum Element in an Array
 
 Explanation:
-
+```
 Initialize min and max to the first element of the array.
 
 Traverse the array from index 1 onward.
@@ -11,7 +11,7 @@ If current element is smaller than min, update min.
 If current element is greater than max, update max.
 
 This ensures we find both values in a single traversal (O(n) time).
-
+```
 
 Edge Cases:
 ```
