@@ -24,24 +24,24 @@ This is equivalent to:
 ---
 
 Sample Input
-
+```
 const n = 3;
 const flatInput = [1, 3, 2, 5, 6, 9];
-
+```
 Sample Output
 
 2
 
 Explanation:
-
+```
 Choose point 3 → covers [1,3] and [2,5]
 
 Choose point 9 → covers [6,9]
 
-
+```
 
 ---
-
+```
 JavaScript Code (With Try-Catch & Flat Input Handling)
 
 function minPointsToCoverIntervals(n, flatInput) {
@@ -76,7 +76,7 @@ Example Usage
 
 console.log(minPointsToCoverIntervals(n, flatInput)); // Output: 2
 
-
+```
 ---
 
 Key Insight:
