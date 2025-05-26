@@ -29,7 +29,7 @@ Space Complexity: O(1)
 ---
 
 🔧 Code:
-
+```
 function findMinMax(arr) {
   if (arr.length === 0) return null;
 
@@ -43,14 +43,15 @@ function findMinMax(arr) {
 
   return { min, max };
 }
-
+```
 
 ---
 
 🔍 Test Example:
-
+```
 const arr = [7, 2, 9, 4, 1];
 const result = findMinMax(arr);
 console.log("Min:", result.min); // 1
 console.log("Max:", result.max); // 9
 
+```
