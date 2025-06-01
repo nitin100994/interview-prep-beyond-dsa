@@ -82,7 +82,7 @@ It’s like a **lover in the shadows**, knowing your every move.
 ---
 
 ## 💥 Historic Reference: Israel’s "Pager Hack" Mystery
-> Flashback 🔙 — It’s believed that Israel once hacked a network of **pagers**, leading to a wave of explosions (allegedly) during counter-terrorist ops.
+> Flashback 🔙 — Israel once hacked a network of **pagers**, leading to a wave of explosions (allegedly) during counter-terrorist ops.
 
 - They didn’t just **listen** — they made it explode. 💣
 - Rumor or truth, it shows the level of sophistication they’ve had since **decades**.
