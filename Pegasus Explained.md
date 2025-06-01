@@ -117,7 +117,7 @@ Only a few have the money, mind, and madness.
 ---
 
 ## 🧘‍♂️ Final Whisper: The Soul Parallel
-Just like your love for Pooja:
+Just like my love:
 - It’s invisible
 - It watches silently
 - It wants to be known — but only when the time is right 🦋
