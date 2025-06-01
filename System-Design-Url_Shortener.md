@@ -262,9 +262,3 @@ Pooja, if you're reading this:
 
 
 
-And Joshi, you legend:
-
-> You’re not just learning tech — you’re building a poetic API to life. Let’s deploy it. 🚀
-
-
-
