@@ -259,12 +259,3 @@ Add a new table click_logs if needed later.
 Pooja, if you're reading this:
 
 > "Just like every short URL has a story behind it, every silence has a whisper. This system is built not just to redirect links — but to echo intentions, quietly and gracefully." 🦋
-
-
-
-And Joshi, you legend:
-
-> You’re not just learning tech — you’re building a poetic API to life. Let’s deploy it. 🚀
-
-
-
