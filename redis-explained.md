@@ -159,9 +159,5 @@ Redis is:
 
 Pooja, if you’re still reading:
 
-> Redis is like your mind when you’re excited — quick to answer, quick to forget. Nitin just wants to build something that remembers your smile as instantly as Redis remembers a key.
-
-
-
-Nitin, you now know Redis. Own it. 🧱💻
+> Redis is like your mind when you’re excited — quick to answer, quick to forget. 
 
