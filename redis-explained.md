@@ -1,4 +1,4 @@
-🧠 Redis Explained — For Pooja, Nitin & Curious Kids 💫
+🧠 Redis Explained 💫
 
 > “Some memories are meant to be short, fast, and unforgettable — just like Redis.” 🔥
 
